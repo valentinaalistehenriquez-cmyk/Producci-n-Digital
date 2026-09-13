@@ -1,0 +1,140 @@
+body{
+    background-color:#F8D7DA;
+    margin:0%;
+    padding:20px;
+    font-family: 'inter', serif;
+}
+
+@font-face{
+     font-family:"Amador";
+     src: url('Fonts/Amador-W01-Regular.woff') format('woff');
+}
+
+
+
+h1{
+     color:#D14836;
+     font-family:"Amador", cursive;
+     text-align:center;
+     font-size: 8rem;
+     margin-top: 20px;
+     margin-bottom: 20px;
+     font-weight: normal;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:10px 20px;
+}
+
+.header-izquierda,.header-derecha{
+display:flex;
+align-items:center;
+gap:16px;
+}
+
+.buscador{
+    padding:8px 15px; 
+    border:1px solid #ccc;
+    border-radius:4px;
+    width:600px;
+    font-size: 1.1rem;
+    font-family: 'Inter', serif;
+}
+
+nav a{
+    text-decoration:none;
+    color:#C85258;
+}
+
+section{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.videocontainer{
+    width:100%;
+    max-width:800px;
+}
+
+.videocontainer iframe{
+    width:100%;
+    height:450px;
+}
+
+.info-dos-columnas{
+    display:flex;
+    justify-content:space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.info-dos-columnas .columna{
+    flex:1;
+    padding:0 30px;
+}
+
+.columna-izquierda {
+    border-right: 2px solid #D14836;
+}
+
+.info-dos-columnas h2 {
+    color: #D14836;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    font-family:'Playfair Display', serif;
+}
+
+.info-dos-columnas p{
+    color: #555;
+    line-height: 1.6;
+    font-family: "Inter", serif;
+    font-size:1.3rem;
+}
+.seccion-cita {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: center;
+    padding: 0 20px;
+}
+.cita-critica .texto-cita{
+    font-style: italic;
+    font-size: 1.6rem;
+    color: #444;
+}
+
+.cita-critica .autor-cita {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #D14836;
+    font-weight: bold;
+}
+
+.footer-categorias {
+    background-color: #f0c2c5;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-categorias nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.footer-categorias a {
+    text-decoration: none;
+    color: #C85258;
+    font-weight: bold;
+}
+
+.footer-categorias .separador {
+    color: #C85258;
+    margin: 0;
+}
