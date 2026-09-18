@@ -27,21 +27,25 @@ header{
     justify-content:space-between;
     align-items:center;
     padding:10px 20px;
+    background-color: #f0c2c5;
 }
 
 .header-izquierda,.header-derecha{
 display:flex;
 align-items:center;
-gap:16px;
+gap: 10px;
 }
 
-.buscador{
-    padding:8px 15px; 
-    border:1px solid #ccc;
-    border-radius:4px;
-    width:600px;
-    font-size: 1.1rem;
-    font-family: 'Inter', serif;
+.icono-carrito {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+    object-fit: contain;
+}
+
+.carrito-link {
+    display: flex;
+    align-items: center;
 }
 
 nav a{
@@ -69,10 +73,17 @@ section{
 .info-dos-columnas{
     display:flex;
     justify-content:space-between;
-    align-items: flex-start;
+    align-items: stretch;
     max-width: 900px;
     margin: 40px auto;
     padding: 0 20px;
+    gap: 30px;
+}
+
+.recuadro-caja {
+    border: 2px solid #D14836;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 .info-dos-columnas .columna{
