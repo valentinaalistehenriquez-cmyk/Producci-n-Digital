@@ -81,9 +81,9 @@ section{
 }
 
 .recuadro-caja {
-    border: 2px solid #D14836;
-    border-radius: 8px;
-    background-color: rgba(255, 255, 255, 0.3);
+background-color:#F7C6CB;
+border-radius: 8px;
+padding: 25px;
 }
 
 .info-dos-columnas .columna{
@@ -103,7 +103,7 @@ section{
 }
 
 .info-dos-columnas p{
-    color: #555;
+    color: #000;
     line-height: 1.6;
     font-family: "Inter", serif;
     font-size:1.3rem;
@@ -117,7 +117,7 @@ section{
 .cita-critica .texto-cita{
     font-style: italic;
     font-size: 1.6rem;
-    color: #444;
+    color: #000000;
 }
 
 .cita-critica .autor-cita {
